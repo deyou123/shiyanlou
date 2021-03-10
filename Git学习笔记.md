@@ -163,3 +163,12 @@ git push
 ```
 
 此时本地和远程仓库都有三个提交点。
+
+# Git 分支管理
+
+```shell
+git branch dev                   //创建分支
+git checkout dev                 //切换到分支
+git branch -b dev1               //创建分支并切换到分支
+```
+
