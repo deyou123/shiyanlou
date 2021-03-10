@@ -50,14 +50,14 @@ git log    //查看提交信息，最近的一次在最上面
 
 ```
 
-![image-20210310184823896](C:\Users\zhaid\AppData\Roaming\Typora\typora-user-images\image-20210310184823896.png)
+![image-20210310184823896](image\image-20210310184823896.png)
 
 ```shell
 git log --reverse      //按照时间顺序显示信息。
 git branch -avv   //查看全部分支信息
 ```
 
-![image-20210310185913438](C:\Users\zhaid\AppData\Roaming\Typora\typora-user-images\image-20210310185913438.png)
+![image-20210310185913438](image\image-20210310185913438.png)
 
 第一行 ： 带星号的，表示当前所在分支，绿色是分支名，后面是版本号，第三项括号里的蓝字表示此分支跟中的远程分支的名字。
 
@@ -70,7 +70,7 @@ git push    //将本地新增推送到远程仓库
 git branch -avv  //查看分支
 ```
 
-![image-20210310192235096](C:\Users\zhaid\AppData\Roaming\Typora\typora-user-images\image-20210310192235096.png)
+![image-20210310192235096](image\image-20210310192235096.png)
 
 查看版本号可以发现远程仓库版本号已经可本地的同步。6eef284
 
@@ -88,7 +88,7 @@ git log                 //查看提交信息
 git branch -avv         //再次查看分支信息
 ```
 
-![image-20210310192918344](C:\Users\zhaid\AppData\Roaming\Typora\typora-user-images\image-20210310192918344.png)
+![image-20210310192918344](image\image-20210310192918344.png)
 
 ```shell
 git reset --soft HEAD^^  //回退2次
@@ -105,7 +105,7 @@ git push  // 推送
 
 ```
 
-![image-20210310200837997](C:\Users\zhaid\AppData\Roaming\Typora\typora-user-images\image-20210310200837997.png)
+![image-20210310200837997](image\image-20210310200837997.png)
 
 ```shell
 git psuh -f   //版本回撤，需要使用强制推送
@@ -141,7 +141,7 @@ git st                            // 使用别名查看状态
 git config --global alias.br 'branch -avv' //查看分支
 ```
 
-![image-20210310203701194](C:\Users\zhaid\AppData\Roaming\Typora\typora-user-images\image-20210310203701194.png)
+![image-20210310203701194](image\image-20210310203701194.png)
 
 查看别名如图。
 
